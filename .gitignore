@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Python cache
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Dataset (ignored to avoid large files)
+dataset/*
+!dataset/.gitkeep    # keeps folder structure
+
+# OS / Editor files
+.DS_Store
+.vscode/
+*.swp
+Thumbs.db
